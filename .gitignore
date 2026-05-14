@@ -1,0 +1,20 @@
+# 排除训练权重文件（可选）
+# *.pt
+# *.pth
+
+# 排除训练结果目录
+runs/
+train_output/
+
+# 排除数据集目录（如果太大）
+train/
+test/
+
+# 排除虚拟环境
+venv/
+.env/
+__pycache__/
+
+# 排除临时文件
+*.tmp
+*.log
